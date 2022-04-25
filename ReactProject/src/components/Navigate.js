@@ -19,14 +19,29 @@ function Navigate() {
                 DELVE <FontAwesomeIcon icon={faWpexplorer}/>
               </Link>
               <div className='menu-icon' onClick={handleClick}>
-                <i>
-                  {click ? <FontAwesomeIcon icon={faBars}/>: <FontAwesomeIcon icon={faTimes}/>}
+                <i className={click ? 'fa-times': 'fa-bars' }>
+                  {click ? <FontAwesomeIcon icon={faTimes}/>: <FontAwesomeIcon icon={faBars}/>}
                 </i>
               </div>
               <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'>
                   <Link to ='/' className='nav-links' onClick={closeMobileMenu}>
                     Home
+                  </Link>
+                </li>
+                <li className='nav-item'>
+                  <Link to ='/services' className='nav-links' onClick={closeMobileMenu}>
+                    Services
+                  </Link>
+                </li>
+                <li className='nav-item'>
+                  <Link to ='/products' className='nav-links' onClick={closeMobileMenu}>
+                    Products
+                  </Link>
+                </li>
+                <li className='nav-item'>
+                  <Link to ='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                    Sign Up
                   </Link>
                 </li>
               </ul>
