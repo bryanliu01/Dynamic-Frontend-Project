@@ -8,10 +8,10 @@ Please ensure you have the standard range of node_modules installed in your dire
 
 If there is an error with the node_modules folder where there are missing imports,run the following commands to import the icons used in this project:
 
-### npm `i --save @fortawesome/fontawesome-svg-core`
-### npm `install --save @fortawesome/free-solid-svg-icons`
-### npm `install --save @fortawesome/free-brands-svg-icons`
-### npm `install --save @fortawesome/react-fontawesome`
+### `npm i --save @fortawesome/fontawesome-svg-core`
+### `npm install --save @fortawesome/free-solid-svg-icons`
+### `npm install --save @fortawesome/free-brands-svg-icons`
+### `npm install --save @fortawesome/react-fontawesome`
 
 There might be more code comments than a usual project will contain and is purely used to help me learn better.
 
