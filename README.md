@@ -4,6 +4,8 @@ Hi! Welcome to my react website project.
 This project applies the knowledge of HTML, CSS, and Javascript alongside the 
 React.js framework.
 
+This project places heavy emphasis on responsive design and should be fit for a wide range of devices from mobile phones to 4k monitors.
+
 Please ensure you have the standard range of node_modules installed in your directory.
 
 If there is an error with the node_modules folder where there are missing imports,run the following commands to import the icons used in this project:
